@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para alguien muy especial ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         CORAZONES DEL FONDO
+    ====================================================== -->
+    <div id="corazones-fondo"></div>
+
+
+    <!-- =====================================================
+         INICIO
+    ====================================================== -->
+    <section id="inicio" class="pantalla inicio">
+
+        <div class="inicio-brillo"></div>
+
+        <div class="inicio-contenido">
+
+            <div class="corazon-grande">
+                <span>♥</span>
+            </div>
+
+            <p class="mini-titulo">Para alguien muy especial</p>
+
+            <h1>Una pequeña historia<br>hecha para ti</h1>
+
+            <p class="texto-inicio">
+                Hay personas que llegan a nuestra vida y hacen que
+                todo se sienta un poquito más bonito.
+            </p>
+
+            <button id="btnComenzar" class="btn-romantico">
+                Comenzar ❤️
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- =====================================================
+         CONTENIDO PRINCIPAL
+    ====================================================== -->
+    <main id="contenido" class="oculto">
+
+
+        <!-- =================================================
+             MÚSICA
+        ================================================== -->
+        <section id="musicaSeccion" class="seccion tarjeta-seccion">
+
+            <div class="icono-seccion">🎵</div>
+
+            <p class="etiqueta">PRIMER MOMENTO</p>
+
+            <h2>Una canción para nosotros</h2>
+
+            <p>
+                Porque algunas canciones simplemente hacen recordar
+                a una persona especial.
+            </p>
+
+            <div class="musica-card">
+
+                <div class="disco">
+                    <div class="disco-centro">♥</div>
+                </div>
+
+                <div class="musica-info">
+                    <h3>Nuestra canción</h3>
+                    <p>Escúchala mientras recorres esta pequeña historia.</p>
+
+                    <audio id="musica" loop>
+                        <source src="musica/cancion.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button id="btnMusica" class="btn-romantico">
+                        ▶ Reproducir música
+                    </button>
+                </div>
+
+            </div>
+
+            <button class="btn-romantico btn-siguiente" data-next="pregunta">
+                Continuar ✨
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             PREGUNTA
+        ================================================== -->
+        <section id="pregunta" class="seccion tarjeta-seccion">
+
+            <div class="icono-seccion">💗</div>
+
+            <p class="etiqueta">UNA PREGUNTA</p>
+
+            <h2>¿Sabes lo especial que eres?</h2>
+
+            <p>
+                Probablemente no existe una respuesta suficientemente
+                grande para explicar todo lo que significas.
+            </p>
+
+            <div class="botones-pregunta">
+
+                <button id="btnSi" class="btn-romantico">
+                    Sí ❤️
+                </button>
+
+                <button id="btnClaro" class="btn-secundario">
+                    Claro que sí ✨
+                </button>
+
+            </div>
+
+            <div id="respuestaPregunta" class="mensaje-romantico oculto">
+                Sabía que lo sabías... pero quería recordártelo. ❤️
+            </div>
+
+            <button class="btn-romantico btn-siguiente" data-next="contador">
+                Seguir 💕
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             CONTADOR
+        ================================================== -->
+        <section id="contador" class="seccion tarjeta-seccion">
+
+            <p class="etiqueta">DESDE AQUEL DÍA</p>
+
+            <h2>El tiempo sigue pasando...</h2>
+
+            <p>
+                Y cada segundo hace que nuestra historia tenga
+                un recuerdo más.
+            </p>
+
+            <div class="contador-grid">
+
+                <div class="contador-item">
+                    <strong id="dias">0</strong>
+                    <span>Días</span>
+                </div>
+
+                <div class="contador-item">
+                    <strong id="horas">0</strong>
+                    <span>Horas</span>
+                </div>
+
+                <div class="contador-item">
+                    <strong id="minutos">0</strong>
+                    <span>Minutos</span>
+                </div>
+
+                <div class="contador-item">
+                    <strong id="segundos">0</strong>
+                    <span>Segundos</span>
+                </div>
+
+            </div>
+
+            <p class="fecha-especial">
+                07 · 10 · 2023 ❤️
+            </p>
+
+            <button class="btn-romantico btn-siguiente" data-next="recuerdos">
+                Ver nuestros recuerdos 📸
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             TIMELINE
+        ================================================== -->
+        <section id="recuerdos" class="seccion timeline-seccion">
+
+            <p class="etiqueta">NUESTROS RECUERDOS</p>
+
+            <h2>Momentos que quiero guardar</h2>
+
+            <p class="subtexto">
+                Cada fotografía guarda una pequeña parte de nuestra historia.
+            </p>
+
+            <div class="timeline">
+
+                <article class="timeline-item izquierda">
+
+                    <div class="timeline-punto">♥</div>
+
+                    <div class="timeline-card">
+
+                        <img src="imagenes/foto1.jpg" alt="Recuerdo 1">
+
+                        <div>
+                            <span>Recuerdo 01</span>
+                            <h3>Un momento especial</h3>
+                            <p>
+                                Porque incluso los momentos sencillos
+                                pueden convertirse en recuerdos inolvidables.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item derecha">
+
+                    <div class="timeline-punto">♥</div>
+
+                    <div class="timeline-card">
+
+                        <img src="imagenes/foto2.jpg" alt="Recuerdo 2">
+
+                        <div>
+                            <span>Recuerdo 02</span>
+                            <h3>Una sonrisa</h3>
+                            <p>
+                                Hay fotografías que no necesitan explicación.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item izquierda">
+
+                    <div class="timeline-punto">♥</div>
+
+                    <div class="timeline-card">
+
+                        <img src="imagenes/foto3.jpg" alt="Recuerdo 3">
+
+                        <div>
+                            <span>Recuerdo 03</span>
+                            <h3>Un instante</h3>
+                            <p>
+                                Un pequeño momento que merece quedarse aquí.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item derecha">
+
+                    <div class="timeline-punto">♥</div>
+
+                    <div class="timeline-card">
+
+                        <img src="imagenes/foto4.jpg" alt="Recuerdo 4">
+
+                        <div>
+                            <span>Recuerdo 04</span>
+                            <h3>Y muchos más...</h3>
+                            <p>
+                                Porque todavía quedan muchas páginas por escribir.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <button class="btn-romantico btn-siguiente" data-next="razones">
+                Hay algo más... 💌
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             10 RAZONES
+        ================================================== -->
+        <section id="razones" class="seccion tarjeta-seccion">
+
+            <p class="etiqueta">10 RAZONES</p>
+
+            <h2>Diez pequeñas razones</h2>
+
+            <div class="razones-grid">
+
+                <div class="razon"><span>01</span><p>Por tu forma de ser.</p></div>
+                <div class="razon"><span>02</span><p>Por tus ocurrencias.</p></div>
+                <div class="razon"><span>03</span><p>Por tu sencillez.</p></div>
+                <div class="razon"><span>04</span><p>Por cada sonrisa.</p></div>
+                <div class="razon"><span>05</span><p>Por el cariño que das.</p></div>
+                <div class="razon"><span>06</span><p>Por hacer especiales los días normales.</p></div>
+                <div class="razon"><span>07</span><p>Por cada conversación.</p></div>
+                <div class="razon"><span>08</span><p>Por ser auténtica.</p></div>
+                <div class="razon"><span>09</span><p>Por todos nuestros recuerdos.</p></div>
+                <div class="razon"><span>10</span><p>Simplemente por ser tú. ❤️</p></div>
+
+            </div>
+
+            <button class="btn-romantico btn-siguiente" data-next="flor">
+                Una flor para ti 🌷
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             FLOR
+        ================================================== -->
+        <section id="flor" class="seccion tarjeta-seccion">
+
+            <p class="etiqueta">PARA TI</p>
+
+            <h2>Una flor que nunca se marchita</h2>
+
+            <div class="flor-grande">
+
+                <div class="tallo"></div>
+
+                <div class="petalo p1"></div>
+                <div class="petalo p2"></div>
+                <div class="petalo p3"></div>
+                <div class="petalo p4"></div>
+                <div class="petalo p5"></div>
+                <div class="centro-flor">♥</div>
+
+            </div>
+
+            <button id="btnFlor" class="btn-romantico">
+                Tocar la flor 🌸
+            </button>
+
+            <p id="mensajeFlor" class="mensaje-romantico oculto">
+                Si pudiera regalarte una flor por cada pensamiento bonito,
+                necesitaríamos un jardín entero. ❤️
+            </p>
+
+            <button class="btn-romantico btn-siguiente" data-next="numeros">
+                Continuar ✨
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             JUEGO DE NÚMEROS
+        ================================================== -->
+        <section id="numeros" class="seccion tarjeta-seccion">
+
+            <p class="etiqueta">PEQUEÑO JUEGO</p>
+
+            <h2>Encuentra el número especial</h2>
+
+            <p>
+                Entre estos números hay uno que guarda una pequeña sorpresa.
+            </p>
+
+            <div class="numeros-grid">
+
+                <button class="numero">1</button>
+                <button class="numero">2</button>
+                <button class="numero">3</button>
+                <button class="numero">4</button>
+                <button class="numero">5</button>
+
+            </div>
+
+            <p id="resultadoNumero" class="mensaje-romantico"></p>
+
+            <div id="cartaSecreta" class="carta-secreta oculto">
+
+                <span>💌</span>
+
+                <h3>Encontraste la sorpresa</h3>
+
+                <p>
+                    Algunas cosas bonitas aparecen justo cuando
+                    uno decide buscarlas.
+                </p>
+
+            </div>
+
+            <button class="btn-romantico btn-siguiente" data-next="puzzle">
+                Continuar 🧩
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             PUZZLE INICIAL
+        ================================================== -->
+        <section id="puzzle" class="seccion tarjeta-seccion">
+
+            <p class="etiqueta">SIGUIENTE RETO</p>
+
+            <h2>Ordena nuestro pequeño corazón</h2>
+
+            <p>
+                Presiona las piezas hasta conseguir el orden correcto.
+            </p>
+
+            <div id="puzzleGrid" class="puzzle-grid"></div>
+
+            <p id="mensajePuzzle" class="mensaje-romantico"></p>
+
+            <div id="ramoFlores" class="ramo-flores oculto">
+
+                <div class="ramo">
+                    <span>🌷</span>
+                    <span>🌹</span>
+                    <span>🌸</span>
+                    <span>🌺</span>
+                    <span>🌷</span>
+                </div>
+
+                <h3>Un pequeño ramo para ti 🌷</h3>
+
+            </div>
+
+            <button class="btn-romantico btn-siguiente" data-next="bloqueo">
+                Continuar 🔐
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             CÓDIGO
+        ================================================== -->
+        <section id="bloqueo" class="seccion tarjeta-seccion">
+
+            <p class="etiqueta">CÓDIGO SECRETO</p>
+
+            <h2>Hay algo protegido</h2>
+
+            <p>
+                Introduce el código de nuestra fecha especial.
+            </p>
+
+            <div class="codigo-inputs">
+
+                <input class="digito-codigo" maxlength="1" inputmode="numeric">
+                <input class="digito-codigo" maxlength="1" inputmode="numeric">
+                <input class="digito-codigo" maxlength="1" inputmode="numeric">
+                <input class="digito-codigo" maxlength="1" inputmode="numeric">
+                <input class="digito-codigo" maxlength="1" inputmode="numeric">
+                <input class="digito-codigo" maxlength="1" inputmode="numeric">
+
+            </div>
+
+            <button id="btnCodigo" class="btn-romantico">
+                Desbloquear 🔓
+            </button>
+
+            <p id="mensajeCodigo" class="mensaje-romantico"></p>
+
+            <button class="btn-romantico btn-siguiente" data-next="zonaHuella">
+                Continuar 👆
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             HUELLA
+        ================================================== -->
+        <section id="zonaHuella" class="pantalla-especial">
+
+            <div class="especial-contenido">
+
+                <p class="etiqueta">ACCESO ESPECIAL</p>
+
+                <h2>Solo falta una cosa...</h2>
+
+                <p>
+                    Coloca tu dedo sobre la huella para continuar.
+                </p>
+
+                <button id="huella" class="huella-boton" aria-label="Escanear huella">
+                    <span class="huella-icono">◉</span>
+                    <span class="linea-huella"></span>
+                </button>
+
+                <p id="mensajeHuella">
+                    Toca la huella para escanear...
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             REGALO
+        ================================================== -->
+        <section id="zonaSecreta" class="pantalla-especial">
+
+            <div class="especial-contenido">
+
+                <p class="etiqueta">UNA SORPRESA</p>
+
+                <h2>Hay algo esperándote...</h2>
+
+                <p>
+                    Este regalo guarda algo mucho más grande de lo que parece.
+                </p>
+
+                <button id="regalo" class="regalo-boton" aria-label="Abrir regalo">
+
+                    <div class="regalo-tapa"></div>
+                    <div class="regalo-caja"></div>
+                    <div class="regalo-cinta"></div>
+
+                </button>
+
+                <p id="mensajeRegalo">
+                    Haz clic en el regalo 🎁
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             UNIVERSO
+        ================================================== -->
+        <section id="universo" class="pantalla-especial universo-seccion">
+
+            <div class="universo-titulo">
+
+                <p class="etiqueta">PARA TI</p>
+
+                <h2>Un universo entero</h2>
+
+                <p>
+                    Porque algunas personas merecen tener su propio universo.
+                </p>
+
+            </div>
+
+
+            <div id="universo3D" class="universo-escena">
+
+                <div class="universo-orbita">
+
+                    <img class="foto-universo foto-u1" src="imagenes/foto5.jpg" alt="">
+                    <img class="foto-universo foto-u2" src="imagenes/foto6.jpg" alt="">
+                    <img class="foto-universo foto-u3" src="imagenes/foto7.jpg" alt="">
+                    <img class="foto-universo foto-u4" src="imagenes/foto8.jpg" alt="">
+                    <img class="foto-universo foto-u5" src="imagenes/foto9.jpg" alt="">
+                    <img class="foto-universo foto-u6" src="imagenes/foto10.jpg" alt="">
+                    <img class="foto-universo foto-u7" src="imagenes/foto11.jpg" alt="">
+                    <img class="foto-universo foto-u8" src="imagenes/foto13.jpg" alt="">
+                    <img class="foto-universo foto-u9" src="imagenes/foto14.jpg" alt="">
+                    <img class="foto-universo foto-u10" src="imagenes/foto15.jpg" alt="">
+
+                </div>
+
+
+                <!-- CORAZÓN CENTRAL -->
+                <button id="universo-centro" aria-label="Continuar a los videos">
+
+                    <span>♥</span>
+
+                    <small>
+                        Ver nuestros videos
+                    </small>
+
+                </button>
+
+            </div>
+
+            <p class="instruccion-universo">
+                Puedes mover el universo con el mouse ✨
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             VIDEOS
+        ================================================== -->
+        <section id="videos" class="seccion tarjeta-seccion">
+
+            <p class="etiqueta">NUESTROS VIDEOS</p>
+
+            <h2>Momentos que también quiero guardar</h2>
+
+            <p>
+                Esta parte continúa nuestra pequeña historia.
+            </p>
+
+            <div class="video-contenedor">
+
+                <video id="videoPrincipal" controls playsinline>
+
+                    <source src="imagenes/video.mp4" type="video/mp4">
+
+                    Tu navegador no puede reproducir este video.
+
+                </video>
+
+                <div id="videoPlaceholder" class="video-placeholder oculto">
+
+                    <span>🎬</span>
+
+                    <h3>Video no encontrado</h3>
+
+                    <p>
+                        Revisa que tu video esté dentro de la carpeta
+                        <b>videos</b> y se llame <b>video1.mp4</b>.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <button id="btnAlArbol" class="btn-romantico">
+                Continuar al árbol 🌳
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             ÁRBOL
+        ================================================== -->
+        <section id="arbol" class="seccion arbol-seccion">
+
+            <div class="cielo-arbol">
+
+                <div class="estrella e1">✦</div>
+                <div class="estrella e2">✦</div>
+                <div class="estrella e3">✧</div>
+                <div class="estrella e4">✦</div>
+                <div class="estrella e5">✧</div>
+
+
+                <div class="arbol-bonito">
+
+                    <div class="copa-arbol">
+
+                        <span class="hoja h1">♥</span>
+                        <span class="hoja h2">♥</span>
+                        <span class="hoja h3">♥</span>
+                        <span class="hoja h4">♥</span>
+                        <span class="hoja h5">♥</span>
+                        <span class="hoja h6">♥</span>
+                        <span class="hoja h7">♥</span>
+                        <span class="hoja h8">♥</span>
+                        <span class="hoja h9">♥</span>
+                        <span class="hoja h10">♥</span>
+                        <span class="hoja h11">♥</span>
+                        <span class="hoja h12">♥</span>
+                        <span class="hoja h13">♥</span>
+                        <span class="hoja h14">♥</span>
+                        <span class="hoja h15">♥</span>
+                        <span class="hoja h16">♥</span>
+                        <span class="hoja h17">♥</span>
+                        <span class="hoja h18">♥</span>
+                        <span class="hoja h19">♥</span>
+                        <span class="hoja h20">♥</span>
+                        <span class="hoja h21">♥</span>
+                        <span class="hoja h22">♥</span>
+                        <span class="hoja h23">♥</span>
+                        <span class="hoja h24">♥</span>
+                        <span class="hoja h25">♥</span>
+                        <span class="hoja h26">♥</span>
+                        <span class="hoja h27">♥</span>
+                        <span class="hoja h28">♥</span>
+                        <span class="hoja h29">♥</span>
+                        <span class="hoja h30">♥</span>
+                        <span class="hoja h31">♥</span>
+                        <span class="hoja h32">♥</span>
+                        <span class="hoja h33">♥</span>
+                        <span class="hoja h34">♥</span>
+                        <span class="hoja h35">♥</span>
+                        <span class="hoja h36">♥</span>
+
+                        <span class="flor-arbol fa1">🌸</span>
+                        <span class="flor-arbol fa2">🌷</span>
+                        <span class="flor-arbol fa3">🌹</span>
+                        <span class="flor-arbol fa4">🌺</span>
+
+                    </div>
+
+                    <div class="rama rama1"></div>
+                    <div class="rama rama2"></div>
+                    <div class="rama rama3"></div>
+                    <div class="rama rama4"></div>
+
+                    <div class="tronco"></div>
+
+                </div>
+
+            </div>
+
+            <div class="arbol-texto">
+
+                <p class="etiqueta">36 PEQUEÑAS RAZONES</p>
+
+                <h2>Un árbol lleno de cariño</h2>
+
+                <p>
+                    Cada corazón representa un pequeño pedacito
+                    de todo lo bonito que puede crecer con el tiempo.
+                </p>
+
+                <button id="btnAlLibro" class="btn-romantico">
+                    Abrir nuestro libro 📖
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             LIBRO
+        ================================================== -->
+        <section id="libro" class="seccion libro-seccion">
+
+            <div id="portadaLibro" class="portada-libro">
+
+                <div class="portada-decoracion">♥</div>
+
+                <p>UNA HISTORIA</p>
+
+                <h2>Para ti</h2>
+
+                <span>10 páginas de recuerdos</span>
+
+                <button id="btnAbrirLibro" class="btn-romantico">
+                    Abrir libro 📖
+                </button>
+
+            </div>
+
+
+            <div id="paginasLibro" class="libro-contenedor oculto">
+
+                <article class="pagina-libro activa">
+
+                    <img src="imagenes/foto16.jpg" alt="Página 1">
+
+                    <div>
+                        <span>PÁGINA 01</span>
+                        <h3>Todo comenzó</h3>
+                        <p>
+                            Algunas historias comienzan sin que sepamos
+                            lo importantes que llegarán a ser.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="pagina-libro">
+
+                    <img src="imagenes/foto17.jpg" alt="Página 2">
+
+                    <div>
+                        <span>PÁGINA 02</span>
+                        <h3>Una persona especial</h3>
+                        <p>
+                            Y poco a poco alguien puede convertirse
+                            en una parte muy bonita de nuestros días.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="pagina-libro">
+
+                    <img src="imagenes/foto18.jpg" alt="Página 3">
+
+                    <div>
+                        <span>PÁGINA 03</span>
+                        <h3>Las pequeñas cosas</h3>
+                        <p>
+                            No siempre hacen falta grandes momentos.
+                            A veces basta una sonrisa.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="pagina-libro">
+
+                    <img src="imagenes/foto19.jpg" alt="Página 4">
+
+                    <div>
+                        <span>PÁGINA 04</span>
+                        <h3>Tus ocurrencias</h3>
+                        <p>
+                            Esas pequeñas travesuras que hacen
+                            que todo sea mucho más divertido.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="pagina-libro">
+
+                    <img src="imagenes/foto20.jpg" alt="Página 5">
+
+                    <div>
+                        <span>PÁGINA 05</span>
+                        <h3>Tu sencillez</h3>
+                        <p>
+                            Una de esas cosas que hacen que una persona
+                            sea verdaderamente especial.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="pagina-libro">
+
+                    <img src="imagenes/foto21.jpg" alt="Página 6">
+
+                    <div>
+                        <span>PÁGINA 06</span>
+                        <h3>Tu cariño</h3>
+                        <p>
+                            Hay gestos pequeños que pueden significar
+                            muchísimo.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="pagina-libro">
+
+                    <img src="imagenes/foto22.jpg" alt="Página 7">
+
+                    <div>
+                        <span>PÁGINA 07</span>
+                        <h3>Los recuerdos</h3>
+                        <p>
+                            Algunos momentos merecen quedarse guardados
+                            para siempre.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="pagina-libro">
+
+                    <img src="imagenes/foto23.jpg" alt="Página 8">
+
+                    <div>
+                        <span>PÁGINA 08</span>
+                        <h3>Lo que queda</h3>
+                        <p>
+                            Después de cada momento siempre queda
+                            algo bonito para recordar.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="pagina-libro">
+
+                    <img src="imagenes/foto24.jpg" alt="Página 9">
+
+                    <div>
+                        <span>PÁGINA 09</span>
+                        <h3>Lo que viene</h3>
+                        <p>
+                            Y todavía quedan muchas páginas
+                            por escribir.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="pagina-libro">
+
+                    <img src="imagenes/foto25.jpg" alt="Página 10">
+
+                    <div>
+                        <span>PÁGINA 10</span>
+                        <h3>La última página... por ahora</h3>
+                        <p>
+                            Porque una historia bonita no tiene por qué
+                            terminar aquí. ❤️
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <div class="controles-libro">
+
+                    <button id="paginaAnterior" class="btn-secundario">
+                        ← Anterior
+                    </button>
+
+                    <span id="numeroPagina">1 / 10</span>
+
+                    <button id="paginaSiguiente" class="btn-secundario">
+                        Siguiente →
+                    </button>
+
+                </div>
+
+                <button id="btnAlSobre" class="btn-romantico">
+                    Hay una última cosa 💌
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SOBRE
+        ================================================== -->
+        <section id="sobreSeccion" class="seccion sobre-seccion">
+
+            <p class="etiqueta">UNA ÚLTIMA CARTA</p>
+
+            <h2>Antes de terminar...</h2>
+
+            <div id="sobre" class="sobre">
+
+                <div class="sobre-tapa"></div>
+
+                <div class="carta">
+
+                    <h3>Para ti ❤️</h3>
+
+                    <p>
+                        Si llegaste hasta aquí, espero que hayas disfrutado
+                        cada pequeño detalle.
+                    </p>
+
+                    <p>
+                        Esta página solamente intenta guardar en un mismo
+                        lugar algunos de los sentimientos y recuerdos
+                        que hacen especial nuestra historia.
+                    </p>
+
+                    <p>
+                        Y todavía queda una última sorpresa...
+                    </p>
+
+                </div>
+
+            </div>
+
+            <p id="mensajeSobre">
+                Haz clic en el sobre para abrirlo 💌
+            </p>
+
+            <button id="btnAlRompecabezasFinal" class="btn-romantico">
+                Último reto 🧩
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             ROMPECABEZAS FINAL
+        ================================================== -->
+        <section id="rompecabezasFinal" class="seccion tarjeta-seccion">
+
+            <p class="etiqueta">ÚLTIMO RETO</p>
+
+            <h2>Un último pequeño desafío</h2>
+
+            <p>
+                Coloca los números en el orden correcto:
+                <b>1 → 2 → 3 → 4</b>
+            </p>
+
+            <div id="puzzleFinalGrid" class="puzzle-final-grid">
+
+                <button data-num="1">1</button>
+                <button data-num="2">2</button>
+                <button data-num="3">3</button>
+                <button data-num="4">4</button>
+
+            </div>
+
+            <p id="mensajePuzzleFinal" class="mensaje-romantico"></p>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         FINAL
+    ====================================================== -->
+    <section id="final" class="pantalla-final oculto">
+
+        <div class="final-brillos"></div>
+
+        <div class="final-contenido">
+
+            <div class="final-corazon">♥</div>
+
+            <p class="etiqueta">FIN</p>
+
+            <h1>Gracias por llegar hasta aquí</h1>
+
+            <p>
+                Tal vez esto sea solamente una página,
+                pero cada detalle fue pensado para hacerte sonreír.
+            </p>
+
+            <h2>❤️ Para alguien muy especial ❤️</h2>
+
+            <button id="btnVolverInicio" class="btn-romantico">
+                Volver a comenzar
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         MODAL DE FOTOS
+    ====================================================== -->
+    <div id="modalRecuerdo" class="modal oculto">
+
+        <div class="modal-contenido">
+
+            <button id="cerrarModal" class="cerrar-modal">
+                ×
+            </button>
+
+            <img id="imagenModal" src="" alt="Recuerdo">
+
+            <div class="modal-texto">
+
+                <p class="etiqueta">RECUERDO</p>
+
+                <h2 id="tituloModal"></h2>
+
+                <p id="textoModal"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
